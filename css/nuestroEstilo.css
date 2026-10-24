@@ -1,0 +1,27 @@
+:root{
+    --color-principal: #0f1113;
+    --color-secundario: #800a23;
+    --color-fondo: #040E17;
+    --color-texto: #F5F7FA;
+    --color-boton: #e73420;
+    --color-boton-hover: #f63055;
+
+}
+body{
+    background-color: var(--color-fondo);
+    color: var(--color-texto);
+    margin: 0;
+    
+}  
+div{
+    color: var(--color-texto);
+}
+nav{
+    background-color: var(--color-principal);
+}
+nav a{
+    color: var(--color-texto);
+}
+nav a:hover{
+    color: var(--color-boton-hover);
+}
