@@ -22,6 +22,9 @@ nav{
 nav a{
     color: var(--color-texto);
 }
+.navbar-brand .polito{
+    color: var(--color-boton-hover);
+}
 nav a:hover{
     color: var(--color-boton-hover);
 }
